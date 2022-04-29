@@ -85,18 +85,20 @@ describe("Comparaciones en JavaScript", () => {
     test("Usando el comparador de igualdad ===", () => {
         const number = 20;
         // Escribe aquí tu código
-        if(number === 20){
+        /*if(number === 20){
             expression = false;
-        }
+        }*/
+        const expression = number === 34;
         expect(expression).toEqual(false);
     })
 
     test("Usando el comparador de diferencia !==", () => {
         const language = "JavaScript";
         // Escribe aquí tu código
-        if(language !== "PHP"){
+        /*if(language !== "PHP"){
             expression = false;
-        }
+        }*/
+        const expression = language !== "JavaScript";
         expect(expression).toEqual(false);
     })
 })
